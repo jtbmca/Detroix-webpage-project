@@ -3,99 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detroix</title>
+    <title>Detroix- Think Big</title>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header class="aboveheader">
+    <header class="aboveheader" role="banner">
         <h6>www.DEMOLINK.ORG|</h6>
         <ul>
-            <li>Support |</li>
-            <li>FAQ  |</li>
-            <li>Sitemap |</li>
-            <li>Help |</li>
+            <li>>Support|</li>
+            <li>>FAQ|</li>
+            <li>Sitemap|</li>
+            <li>Help|</li>
         </ul>
     </header>
-    <header>
+    <header role="banner">
         <div class="logo"><img src="./images/logo.png" alt="Detroix logo"></div>
-        <nav>
+        <nav role="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#" tabindex="0">Home</a></li>
+                <li><a href="#" tabindex="0">About</a></li>
+                <li><a href="#" tabindex="0">Services</a></li>
+                <li><a href="#" tabindex="0">FAQs</a></li>
+                <li><a href="#" tabindex="0">Contacts</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main role="main">
+        <div class="slideshow-container" role="region" aria-label="Slideshow">
 
-        <section class="banner">
-            <img src="./images/think.png" alt="Banner Image">
-        </section>
-        <section class="features">
-            <div class="feature">
-                <h2>SMART</h2>
-                <img src="./images/puzzle.png" alt="Smart">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate soluta ut ab modi animi. Quae ut dolorem minima est facere!</p>
-                
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
+              <div class="numbertext">1 / 3</div>
+              <img src="./images/think.png" class="slide-image" alt="Think Big">
             </div>
-            <div class="featurestrong">
+          
+            <div class="mySlides fade" role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
+              <div class="numbertext">2 / 3</div>
+              <img src="./images/thinksmol.png" class="slide-image" alt="Think Small">
+            </div>
+          
+            <div class="mySlides fade" role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
+              <div class="numbertext">3 / 3</div>
+              <img src="./images/thinkweird.png" class="slide-image" alt="Think Weird">
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)" role="button" aria-label="Previous slide" tabindex="0">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)" role="button" aria-label="Next slide" tabindex="0">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div class="dots-container" role="navigation" aria-label="Slideshow navigation">
+            <span class="dot" onclick="currentSlide(1)" role="button" aria-label="Slide 1" tabindex="0"></span>
+            <span class="dot" onclick="currentSlide(2)" role="button" aria-label="Slide 2" tabindex="0"></span>
+            <span class="dot" onclick="currentSlide(3)" role="button" aria-label="Slide 3" tabindex="0"></span>
+          </div>
+
+        <section class="features" role="region" aria-labelledby="features-heading">
+            <div class="featuresmart" role="article">
+                <h2>SMART</h2>
+                <img src="./images/puzzle.png" alt="Smart" role="article">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate soluta ut ab modi animi. Quae ut dolorem minima est facere!</p>
+                <button class="button" tabindex="0">MORE</button>
+            </div>
+            <div class="featurestrong" role="article">
                 <h2>STRONG</h2>
                 <img src="./images/plant.png" alt="Strong">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fuga soluta ratione nihil, consequatur architecto explicabo exercitationem quidem facilis tenetur.</p>
+                <button class="button" tabindex="0">MORE</button>
             </div>
-            <div class="feature">
+            <div class="featurestable" role="article">
                 <h2>STABLE</h2>
                 <img src="./images/maze.png" alt="Stable">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi facere reiciendis error ducimus! Eius, sunt! Explicabo voluptates dolores et omnis!</p>
+                <button class="button" tabindex="0">MORE</button>
             </div>
         </section>
-        <section class="services">
-            <h2>SERVICES</h2>
+        <div class="container">
+        <section class="services" role="region" aria-labelledby="services-heading">
+            <h2 id="services-heading">SERVICES</h2>
             <ul>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
-                <li>⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
+                <li tabindex="0">⚙️ Lorem ipsum dolor sit amet.</li>
             </ul>
-            <button>More</button>
+            <button tabindex="0">More</button>
         </section>
-        <section class="opportunities">
-            <h2>OPPORTUNITIES</h2>
+        <section class="opportunities" role="region" aria-labelledby="opportunities-heading">
+            <h2 id="opportunities-heading">OPPORTUNITIES</h2>
             <ul>
-                <li>🗨️Lorem ipsum dolor sit amet.
+                <li tabindex="0">🗨️Lorem ipsum dolor sit amet.
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, rerum. Voluptas ut, aut autem molestias quaerat quis id nostrum possimus.
                     </p>
                 </li>
-                <li>🗨️Lorem ipsum dolor sit amet.
+                <li tabindex="0">🗨️Lorem ipsum dolor sit amet.
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum at eaque sequi voluptate modi dignissimos incidunt quo. Aliquam, porro eos.</p>
                 </li>
             </ul>
-            <button>More</button>
+            <button tabindex="0">More</button>
         </section>
-        <section class="news">
-            <h2>NEWS</h2>
-            <ul>
-                <li>News Item 1: Date - Description
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, dolorum!</p>
-                </li>
-                <li>News Item 2: Date - Description
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, dolorum!</p>
-                </li>
-                <li>News Item 3: Date - Description
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, dolorum!</p>
-                </li>
-            </ul>
-            <button>More</button>
-        </section>
+        <div class="news-section" role="region" aria-labelledby="news-heading">
+            <h2 id="news-heading">NEWS</h2>
+            <div class="news-item" role="article">
+                <div class="date-box date-box-1">
+                    <span class="day">21</span><br>
+                    <span class="month">NOV</span>
+                </div>
+                <div class="description-box">
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p>Lorem ipsum dolor sit amet.<br> 
+                    consectetur, adipisicing elit.<br> 
+                    Repellendus, laudantium.</p>
+                </div>
+            </div>
+    
+            <div class="news-item" role="article">
+                <div class="date-box date-box-2">
+                    <span class="day">09</span><br>
+                    <span class="month">NOV</span>
+                </div>
+                <div class="description-box">
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p>Totam vitae corrupti nesciunt magnam?<br> 
+                    Ad voluptas provident necessitatibus totam.<br> 
+                    Aperiam voluptates sit dolor accusamus!</p>
+                </div>
+            </div>
+    
+            <div class="news-item" role="article">
+                <div class="date-box date-box-3">
+                    <span class="day">17</span><br>
+                    <span class="month">NOV</span>
+                </div>
+                <div class="description-box">
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <p>Aliquid, doloremque, eveniet.<br> 
+                    Quisquam, voluptatum, repellat.<br> 
+                    Doloribus, asperiores, atque.</p>
+                </div>
+            </div>
+            <button class="button news-button" tabindex="0">More</button>
+        </div>
+        </div>
     </main>
-    <footer>
-        <p>DETROIX © 2012 • PRIVACY POLICY</p>
+    <footer role="contentinfo">
+        <p>DETROIX © 2012 * PRIVACY POLICY</p>
     </footer>
+    <script src="./.vscode/java/scrip.js"></script>
 </body>
 </html>
